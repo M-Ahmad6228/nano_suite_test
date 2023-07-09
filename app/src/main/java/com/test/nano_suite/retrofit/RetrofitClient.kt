@@ -2,7 +2,7 @@ package com.test.nano_suite.retrofit
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import com.test.nano_suite.activities.Splash
+import com.test.nano_suite.activities.splash.Splash
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

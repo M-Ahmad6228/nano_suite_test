@@ -2,4 +2,12 @@
     <string name="app_name">Nano Suite</string>
     <string name="email_label">Email</string>
     <string name="password_label">Password</string>
+    <string name="login_page_header">Login</string>
+    <string name="login_page_btn">Continue</string>
+    <string name="login_page_help">Need help?</string>
+    <string name="app_logo">App logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</string>
+    <string name="book_now">Book Now</string>
 </resources>

@@ -2,6 +2,10 @@ package com.test.nano_suite.dependency_injection.di.module
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.test.nano_suite.dependency_injection.base.BaseFragment
+import com.test.nano_suite.dependency_injection.data.DataManager
+import com.test.nano_suite.dependency_injection.rx.ResourceProvider
+import com.test.nano_suite.dependency_injection.rx.SchedulerProvider
+import com.test.nano_suite.fragments.home.HomeViewModel
 import dagger.Module
 import dagger.Provides
 
@@ -19,13 +23,13 @@ class FragmentModule(fragment: BaseFragment<*, *>) {
         return LinearLayoutManager(fragment.activity)
     }
 
-//    @Provides
-//    fun notificationViewModel(
-//        dataManager: DataManager,
-//        schedulerProvider: SchedulerProvider,
-//        resourceProvider: ResourceProvider
-//    ): NotificationViewModel {
-//        return NotificationViewModel(dataManager, schedulerProvider, resourceProvider)
-//    }
+    @Provides
+    fun homeViewModel(
+        dataManager: DataManager,
+        schedulerProvider: SchedulerProvider,
+        resourceProvider: ResourceProvider
+    ): HomeViewModel {
+        return HomeViewModel(dataManager, schedulerProvider, resourceProvider)
+    }
 
 }
