@@ -43,7 +43,7 @@
                 android:padding="@dimen/_10sdp"
                 android:text="All Products"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_28ssp"
+                android:textSize="@dimen/_24ssp"
                 android:textStyle="bold" />
 
             <ImageView
